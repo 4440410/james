@@ -1,0 +1,12 @@
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.csprojAssemblyReference.cache
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.Properties.Resources.resources
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.csproj.GenerateResource.cache
+d:\桌面\xuzhengming\xzc_serv\bin\Debug\xzc_serv.exe
+d:\桌面\xuzhengming\xzc_serv\bin\Debug\xzc_serv.pdb
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.serv_form.resources
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.exe
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.pdb
+d:\桌面\xuzhengming\xzc_serv\bin\Debug\xzc_serv.exe.config
+d:\桌面\xuzhengming\xzc_serv\bin\Debug\Newtonsoft.Json.dll
+d:\桌面\xuzhengming\xzc_serv\bin\Debug\Newtonsoft.Json.xml
+d:\桌面\xuzhengming\xzc_serv\obj\Debug\xzc_serv.csproj.CopyComplete

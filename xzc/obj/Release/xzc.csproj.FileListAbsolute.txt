@@ -1,0 +1,8 @@
+d:\桌面\xuzhengming\xzc\bin\Release\xzc.exe.config
+d:\桌面\xuzhengming\xzc\bin\Release\xzc.exe
+d:\桌面\xuzhengming\xzc\bin\Release\xzc.pdb
+d:\桌面\xuzhengming\xzc\obj\Release\xzc.Form1.resources
+d:\桌面\xuzhengming\xzc\obj\Release\xzc.Properties.Resources.resources
+d:\桌面\xuzhengming\xzc\obj\Release\xzc.csproj.GenerateResource.cache
+d:\桌面\xuzhengming\xzc\obj\Release\xzc.exe
+d:\桌面\xuzhengming\xzc\obj\Release\xzc.pdb

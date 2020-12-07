@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{926D9A4C-9B67-4B22-B193-36DD44B323CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>xzc</RootNamespace>
+    <AssemblyName>xzc</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>xzc.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C2db.cs" />
+    <Compile Include="cprt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cprt.Designer.cs">
+      <DependentUpon>cprt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bj_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bj_form.Designer.cs">
+      <DependentUpon>bj_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qy_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qy_form.Designer.cs">
+      <DependentUpon>qy_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wd_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wd_form.Designer.cs">
+      <DependentUpon>wd_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="monitor_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="monitor_form.Designer.cs">
+      <DependentUpon>monitor_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rec_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rec_form.Designer.cs">
+      <DependentUpon>rec_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sb_form_set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sb_form_set.Designer.cs">
+      <DependentUpon>sb_form_set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m_form.Designer.cs">
+      <DependentUpon>m_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netcs.cs" />
+    <Compile Include="o_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="o_form.Designer.cs">
+      <DependentUpon>o_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="s_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="s_form.Designer.cs">
+      <DependentUpon>s_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="log_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="log_in.Designer.cs">
+      <DependentUpon>log_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="xzcDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>xzcDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bj_form.resx">
+      <DependentUpon>bj_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cprt.resx">
+      <DependentUpon>cprt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monitor_form.resx">
+      <DependentUpon>monitor_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qy_form.resx">
+      <DependentUpon>qy_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rec_form.resx">
+      <DependentUpon>rec_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sb_form_set.resx">
+      <DependentUpon>sb_form_set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m_form.resx">
+      <DependentUpon>m_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="o_form.resx">
+      <DependentUpon>o_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="s_form.resx">
+      <DependentUpon>s_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="log_in.resx">
+      <DependentUpon>log_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="wd_form.resx">
+      <DependentUpon>wd_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="xzcDataSet.xsc">
+      <DependentUpon>xzcDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="xzcDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>xzcDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="xzcDataSet.xss">
+      <DependentUpon>xzcDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xzc", "xzc.csproj", "{926D9A4C-9B67-4B22-B193-36DD44B323CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xzc_serv", "..\xzc_serv\xzc_serv.csproj", "{230708DB-A8D7-46E9-BE86-8FC3B08B2017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{926D9A4C-9B67-4B22-B193-36DD44B323CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926D9A4C-9B67-4B22-B193-36DD44B323CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926D9A4C-9B67-4B22-B193-36DD44B323CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926D9A4C-9B67-4B22-B193-36DD44B323CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230708DB-A8D7-46E9-BE86-8FC3B08B2017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230708DB-A8D7-46E9-BE86-8FC3B08B2017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230708DB-A8D7-46E9-BE86-8FC3B08B2017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230708DB-A8D7-46E9-BE86-8FC3B08B2017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F0B304B-0490-4827-81CA-445FC025DCBE}
+	EndGlobalSection
+EndGlobal
